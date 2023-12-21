@@ -12,3 +12,10 @@
 ### 2.2 Data-Driven Testing
 
 - **Objective** Enchance test coverage by parameterizing tests with external data.
+
+### Notes
+- environmental variable 
+- WINDOWS 
+**set NODE_ENV=qa**
+- Linux and mac 
+**export NODE_ENV=qa**

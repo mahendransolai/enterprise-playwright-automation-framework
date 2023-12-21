@@ -19,7 +19,7 @@ export default class LoginPage {
         //await this.page.pause();
     }
 
-    async fillPasswors(password: string) {
+    async fillPassword(password: string) {
         await this.page.locator(this.passwordInputSelector).fill(password);
     }
 
