@@ -30,7 +30,7 @@ test("Sample env test ", async({page}) => {
 
 })
 
-test.only("Using Auth File ", async({browser}) => {
+test("Using Auth File ", async({browser}) => {
 
     const context = await browser.newContext({storageState: authFile});
     const page =  await context.newPage();
